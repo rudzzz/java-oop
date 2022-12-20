@@ -4,11 +4,17 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		Employee employee1, employee2;
+		
+		employee1 = new Employee();
+		employee2 = new Employee();
+		
 		String name1, name2;
 		Double hourValue1, hourValue2, total;
 		int hour1, hour2;
 		
-		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("First employee data:");
 		name1 = scanner.next();
